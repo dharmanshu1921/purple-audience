@@ -1,0 +1,10 @@
+{
+    "Title":{"Title1":"JOIN OUR","Title2":"TEAM"},
+    "Image":"about.jpg",
+    "descr" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    "Form_title":"Apply Yourself",
+    "Form_links":{"F_Name":"First Name" , "L_Name":"Last Name",
+    "Age":"Enter your Age" , "Email":"Email","City":"City",
+    "State":"Haryana" , "Pincode":"Pincode" , "Ph":"Phone Number"}
+}
+
