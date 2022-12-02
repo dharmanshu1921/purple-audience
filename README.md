@@ -14,6 +14,8 @@ Steps to install the website on your computer:
 3. Then run the intro.js file by writing the below command in the terminal
    npm run devStart
    
+4.Then type localhost:3000 in your browser
+   
 
 This will run the website in the localhost server of your computer.
 
