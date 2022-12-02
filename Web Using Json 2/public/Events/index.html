@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events-Purple Audience</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?v=2" />
+    <link rel="stylesheet" href="/CSSFolders/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--===============================================--
+    ------------Navigation Bar using css and JS-----------
+     -=================================================---->
+    <header class="header">
+        <div class="logo">
+            <a href="/HomePage/intro.html"><span class="purp">PURPLE </span>AUDIENCE</a>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a class="navbar-link" href="/About/About.html">About Us</a></li>
+                <li><a class="navbar-link" href="/Events/index.html">Events</a></li>
+                <li><a class="navbar-link" href="/Join/Join.html">Join Us</a></li>
+                <li><a class="navbar-link" href="/Login/Login.html">Login</a></li>
+                <li><a class="Sign" href="../../index.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <h1>UPCOMING EVENTS-2022</h1>
+    </div>
+
+    <!--=================Events Container=====================--->
+    <div class="event_container">
+        <div class="popup" id="popup">
+            <h2>Thank You</h2>
+            <p>You have been registered for the event.<br><br>
+                Date : 10 Oct 2023 <br>Timing: 2:00PM to 4:00PM
+            </p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+
+        <div class="popup1" id="popup1">
+            <h2>Thank You</h2>
+            <p>You have been registered for the event.<br><br>
+                Date : 23 Sept 2022 <br>Timing: 9:00AM to 12:00PM</p>
+            <button type="button" onclick="closePopup1()">OK</button>
+        </div>
+
+        <div class="popup2" id="popup2">
+            <h2>Thank You</h2>
+            <p>You have been registered for the event.
+                <br><br>
+                Date : 12 Jan 2023 <br>Timing: 10:00AM to 11:00AM
+            </p>
+            <button type="button" onclick="closePopup2()">OK</button>
+        </div>
+    </div>
+    <!--===========================================================
+    ---------------------BOX1 CONTENT-----------------------------
+====================================================================-->
+    <div class="box1">
+        <div class="img_div">
+            <div class="colorgrad"></div>
+        </div>
+
+        <div class="textContainer">
+            <div class="head"></div>
+            <div class="text">
+                <p></p>
+                <button class="btn1" onclick="openPopup()">Register Yourself</button>
+                <h2>Registration Ends In :
+                    <span id="hrs"></span>:
+                    <span id="mins"></span>:
+                    <span id="seconds"></span>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <!--===========================================================
+    ---------------------BOX2 CONTENT-----------------------------
+====================================================================-->
+    <div class="box2">
+        <div class="img_div_2">
+            <div class="colorgrad_1"></div>
+        </div>
+        <div class="textContainer_1">
+            <div class="head_1"></div>
+            <div class="text_1">
+                <p></p>
+                <button class="btn1_1" onclick="openPopup1()">Register Yourself</button>
+                <h2>Registration Ends In :
+                    <span id="hrs_1"></span>:
+                    <span id="mins_1"></span>:
+                    <span id="seconds_1"></span>
+                </h2>
+            </div>
+        </div>
+    </div>
+
+    <!--===========================================================
+    ---------------------BOX3 CONTENT-----------------------------
+====================================================================-->
+    <div class="box3">
+        <div class="img_div_3">
+            <div class="colorgrad_2"></div>
+        </div>
+        <div class="textContainer_2">
+            <div class="head_2"></div>
+            <div class="text_2">
+                <p></p>
+                <button class="btn1_2" onclick="openPopup2()">Register Yourself</button>
+                <h2>Registration Ends In :
+                    <span id="hrs_2"></span>:
+                    <span id="mins_2"></span>:
+                    <span id="seconds_2"></span>
+                </h2>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="footer-distributed">
+        <div class="footer-left">
+            <h3>PURPLE <span id="help">AUDIENCE</span></h3>
+            <p class="footer-links">
+                <a href="/HomePage/intro.html" class="link-1">Home</a>
+                <a href="/About/About.html">About</a>
+                <a href="/Join/Join.html">Join Us</a>
+            </p>
+
+            <p class="footer-company-name">Purple Audience © 2021-22</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>NH-48, 67th Milestone</span> Gurugram, Haryana</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 8306580118</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:ayushkumarlfs2@gmail.com">ayushkumarlfs2@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
+                vehicula sit amet.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us-Purple Audience</title>
+    <link rel="stylesheet" href="/CSSFolders/Join.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!--===============================================--
+    ------------Navigation Bar using css and JS-----------
+     -=================================================---->
+    <header class="header">
+        <div class="logo">
+            <a href="/HomePage/intro.html"><span class="purp">PURPLE </span>AUDIENCE</a>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li><a class="navbar-link" href="/About/About.html">About Us</a></li>
+                <li><a class="navbar-link" href="/Events/index.html">Events</a></li>
+                <li><a class="navbar-link" href="#">Join Us</a></li>
+                <li><a class="navbar-link" href="/Login/Login.html">Login</a></li>
+                <li><a class="Sign" href="../../index.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1></h1>
+        <h2></h2>
+        <p></p>
+        <img class="job">
+        <button class="btn1"> Apply Below <i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+    </div>
+
+
+    <div class="form-container">
+        <div class="container1" id="container1">
+            <div class="title"></div>
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">First Name</span>
+                        <input type="text" placeholder="Enter Your First Name">
+                    </div>
+                    <div class=" input-box">
+                        <span class="details">Last Name</span>
+                        <input type="text" placeholder="Enter Your Last Name">
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Enter your Age</span>
+                        <input type="number" placeholder="Age">
+                    </div>
+
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="email" placeholder="Enter Email Address">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">City</span>
+                        <input type="text" placeholder="Enter City">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">State</span>
+                        <input type="text" placeholder="Enter State">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Pincode</span>
+                        <input type="text" placeholder="Pincode">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter Phone Number">
+                    </div>
+                </div>
+
+                <div class=" gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+
+
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                        </label>
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefer not to say</span>
+                        </label>
+                    </div>
+
+
+
+                    <span class="upload-title">Upload your CV</span>
+                    <div class="file-upload">
+                        <input type="file" id="myFile" name="filename">
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input onclick="openPopup()">
+                    <h1>SUBMIT</h1>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+    <div class="popup" id="popup">
+        <h2>Thank You</h2>
+        <p>Your application has been sent. We will contact you shortly</p>
+        <button type="button" onclick="closePopup()">OK</button>
+    </div>
+
+
+    <div class="footer-distributed">
+        <div class="footer-left">
+            <h3>PURPLE <span id="help">AUDIENCE</span></h3>
+            <p class="footer-links">
+                <a href="/HomePage/intro.html" class="link-1">Home</a>
+                <a href="/About/About.html">About</a>
+                <a href="/Join/Join.html">Join Us</a>
+            </p>
+
+            <p class="footer-company-name">Purple Audience © 2021-22</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>NH-48, 67th Milestone</span> Gurugram, Haryana</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+91 8306580118</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="mailto:ayushkumarlfs2@gmail.com">ayushkumarlfs2@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>About the company</span>
+                Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus
+                vehicula sit amet.
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="Join.js"></script>
+
+</html>
